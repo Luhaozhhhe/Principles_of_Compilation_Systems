@@ -1,0 +1,51 @@
+[92mAccept [0mtestcase/functional_test/Basic/053_comment2.sy
+[92mAccept [0mtestcase/functional_test/Basic/001_var_defn.sy
+[92mAccept [0mtestcase/functional_test/Basic/018_sub2.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/33_multi_branch.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/complex_test1.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/050_unary_op2.sy
+[92mAccept [0mtestcase/functional_test/Basic/043_op_priority1.sy
+[92mAccept [0mtestcase/functional_test/Basic/016_addc.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/026_if.sy
+[92mAccept [0mtestcase/functional_test/Basic/024_mod.sy
+[92mAccept [0mtestcase/functional_test/Basic/009_const_var_defn2.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/056_assign_complex_expr.sy
+[92mAccept [0mtestcase/functional_test/Basic/000_main.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/1070_multi.sy
+[92mAccept [0mtestcase/functional_test/Basic/008_const_var_defn.sy
+[92mAccept [0mtestcase/functional_test/Basic/015_add2.sy
+[92mAccept [0mtestcase/functional_test/Basic/010_const_var_defn3.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/1068_accumulate.sy
+[92mAccept [0mtestcase/functional_test/Basic/017_sub.sy
+[92mAccept [0mtestcase/functional_test/Basic/054_hex_defn.sy
+[92mAccept [0mtestcase/functional_test/Basic/01_multiple_returns.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/03_branch.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/051_logi_assign.sy
+[92mAccept [0mtestcase/functional_test/Basic/025_rem.sy
+[92mAccept [0mtestcase/functional_test/Basic/023_divc.sy
+[92mAccept [0mtestcase/functional_test/Basic/021_mulc.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/complex_test2.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/1072_enum.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/1073_exchange_value.sy
+[92mAccept [0mtestcase/functional_test/Basic/014_add.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/047_op_priority5.sy
+[92mAccept [0mtestcase/functional_test/Basic/046_op_priority4.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/113_many_locals2.sy
+[92mAccept [0mtestcase/functional_test/Basic/020_mul.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/bang.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/mvn.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/027_if2.sy
+[92mAccept [0mtestcase/functional_test/Basic/003_var_defn3.sy
+[92mAccept [0mtestcase/functional_test/Basic/095_empty_stmt.sy
+[92mAccept [0mtestcase/functional_test/Basic/052_comment1.sy
+[92mAccept [0mtestcase/functional_test/Basic/044_op_priority2.sy
+[92mAccept [0mtestcase/functional_test/Basic/055_hex_oct_add.sy
+[92mAccept [0mtestcase/functional_test/Basic/02_ret_in_block.sy
+[92mAccept [0mtestcase/functional_test/Basic/00_comment2.sy
+[92mAccept [0mtestcase/functional_test/Basic/045_op_priority3.sy
+[92mAccept [0mtestcase/functional_test/Basic/049_unary_op.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/057_if_complex_expr.sy
+[91mWrong Answer on [0mtestcase/functional_test/Basic/048_stmt_expr.sy
+[92mAccept [0mtestcase/functional_test/Basic/019_subc.sy
+[92mAccept [0mtestcase/functional_test/Basic/022_div.sy
+IRTest-Grade:31/50

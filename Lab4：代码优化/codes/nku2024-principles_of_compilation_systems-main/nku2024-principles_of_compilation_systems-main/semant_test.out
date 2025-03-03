@@ -1,0 +1,16 @@
+Program
+  FuncDef   Name:main   ReturnType: Int
+    Block   Size:2
+      ConstDecls   Type: Int
+        ConstDef   name:y   scope:1
+          init:
+            ConstInitVal_exp   Type: Int   ConstValue: 5
+              Intconst   val:5   Type: Int   ConstValue: 5
+      VarDecls   Type: Int
+        VarDef   name:x   scope:1
+          Dimensions:
+            Lval   Type: Int   ConstValue: 5   name:y   scope:1
+            Intconst   val:1   Type: Int   ConstValue: 1
+          init:
+            VarInitVal_exp
+              Intconst   val:5   Type: Int   ConstValue: 5

@@ -1,0 +1,649 @@
+Token           Lexeme               Property                        Line           Column         
+INT             int                                                   2              0              
+IDENT           test_hexoct          test_hexoct                      2              4              
+LPAREN          (                                                     2              15             
+RPAREN          )                                                     2              16             
+LBRACE          {                                                     2              18             
+INT             int                                                   3              4              
+IDENT           a                    a                                3              8              
+COMMA           ,                                                     3              9              
+IDENT           b                    b                                3              11             
+SEMICOLON       ;                                                     3              12             
+IDENT           a                    a                                4              4              
+ASSIGN          =                                                     4              6              
+INT_CONST       0xf0aC               61612                            4              8              
+SEMICOLON       ;                                                     4              14             
+IDENT           b                    b                                5              4              
+ASSIGN          =                                                     5              6              
+INT_CONST       0XcBeF               52207                            5              8              
+SEMICOLON       ;                                                     5              14             
+RETURN          return                                                6              4              
+IDENT           a                    a                                6              11             
+ADD             +                                                     6              13             
+IDENT           b                    b                                6              15             
+ADD             +                                                     6              17             
+INT_CONST       075                  61                               6              19             
+SEMICOLON       ;                                                     6              22             
+RBRACE          }                                                     7              0              
+FLOAT           float                                                 10             0              
+IDENT           test_float           test_float                       10             6              
+LPAREN          (                                                     10             16             
+RPAREN          )                                                     10             17             
+LBRACE          {                                                     11             0              
+FLOAT           float                                                 12             4              
+IDENT           a                    a                                12             10             
+COMMA           ,                                                     12             11             
+IDENT           b                    b                                12             13             
+COMMA           ,                                                     12             14             
+IDENT           c                    c                                12             16             
+SEMICOLON       ;                                                     12             17             
+IDENT           a                    a                                13             4              
+ASSIGN          =                                                     13             6              
+FLOAT_CONST     14.075               14.074999809265                  13             8              
+SEMICOLON       ;                                                     13             14             
+IDENT           b                    b                                14             4              
+ASSIGN          =                                                     14             6              
+FLOAT_CONST     1.34e-3              0.001339999959                   14             8              
+SEMICOLON       ;                                                     14             15             
+IDENT           c                    c                                15             4              
+ASSIGN          =                                                     15             6              
+FLOAT_CONST     0x.AP-3              0.078125000000                   15             8              
+SEMICOLON       ;                                                     15             15             
+RETURN          return                                                16             4              
+IDENT           a                    a                                16             11             
+ADD             +                                                     16             12             
+IDENT           b                    b                                16             13             
+ADD             +                                                     16             14             
+IDENT           c                    c                                16             15             
+SEMICOLON       ;                                                     16             16             
+RBRACE          }                                                     17             0              
+IDENT           f                    f                                20             0              
+ASSIGN          =                                                     20             2              
+IDENT           g                    g                                20             4              
+DIV             /                                                     20             9              
+IDENT           h                    h                                20             10             
+SEMICOLON       ;                                                     20             11             
+IDENT           l                    l                                21             6              
+LPAREN          (                                                     21             7              
+RPAREN          )                                                     21             8              
+SEMICOLON       ;                                                     21             9              
+IDENT           m                    m                                22             0              
+ASSIGN          =                                                     22             2              
+IDENT           n                    n                                22             4              
+ADD             +                                                     23             0              
+IDENT           p                    p                                23             1              
+SEMICOLON       ;                                                     23             2              
+IDENT           a                    a                                24             14             
+ASSIGN          =                                                     24             16             
+IDENT           b                    b                                24             18             
+ADD             +                                                     24             20             
+IDENT           c                    c                                24             22             
+ERROR           */                   unmatched the /*,wrong           24             24             
+INT             int                                                   26             0              
+IDENT           main                 main                             26             4              
+LPAREN          (                                                     26             8              
+RPAREN          )                                                     26             9              
+LBRACE          {                                                     26             11             
+CONST           const                                                 27             2              
+INT             int                                                   27             8              
+IDENT           k0                   k0                               27             12             
+ASSIGN          =                                                     27             15             
+SUB             -                                                     27             17             
+INT_CONST       2147483648           -2147483648                      27             18             
+SEMICOLON       ;                                                     27             28             
+CONST           const                                                 28             2              
+INT             int                                                   28             8              
+IDENT           k1                   k1                               28             12             
+ASSIGN          =                                                     28             15             
+INT_CONST       0x80000000           -2147483648                      28             17             
+SEMICOLON       ;                                                     28             27             
+CONST           const                                                 29             2              
+INT             int                                                   29             8              
+IDENT           k2                   k2                               29             12             
+ASSIGN          =                                                     29             15             
+INT_CONST       0x80000000           -2147483648                      29             17             
+ADD             +                                                     29             28             
+INT_CONST       1                    1                                29             30             
+SEMICOLON       ;                                                     29             31             
+CONST           const                                                 30             2              
+INT             int                                                   30             8              
+IDENT           k3                   k3                               30             12             
+ASSIGN          =                                                     30             15             
+INT_CONST       0x7fFffffF           2147483647                       30             17             
+SEMICOLON       ;                                                     30             27             
+CONST           const                                                 31             2              
+INT             int                                                   31             8              
+IDENT           k4                   k4                               31             12             
+ASSIGN          =                                                     31             15             
+INT_CONST       0x7fFffffF           2147483647                       31             17             
+SUB             -                                                     31             28             
+INT_CONST       1                    1                                31             30             
+SEMICOLON       ;                                                     31             31             
+INT             int                                                   32             2              
+IDENT           a1                   a1                               32             6              
+COMMA           ,                                                     32             8              
+IDENT           a2                   a2                               32             10             
+COMMA           ,                                                     32             12             
+IDENT           a3                   a3                               32             14             
+COMMA           ,                                                     32             16             
+IDENT           a4                   a4                               32             18             
+SEMICOLON       ;                                                     32             20             
+IDENT           a1                   a1                               33             2              
+ASSIGN          =                                                     33             5              
+IDENT           get_ans              get_ans                          33             7              
+LPAREN          (                                                     33             14             
+INT_CONST       0                    0                                33             16             
+COMMA           ,                                                     33             17             
+IDENT           k0                   k0                               33             19             
+COMMA           ,                                                     33             21             
+IDENT           k1                   k1                               33             23             
+RPAREN          )                                                     33             25             
+SEMICOLON       ;                                                     33             26             
+IDENT           a1                   a1                               34             2              
+ASSIGN          =                                                     34             5              
+IDENT           get_ans              get_ans                          34             7              
+LPAREN          (                                                     34             14             
+IDENT           a1                   a1                               34             15             
+COMMA           ,                                                     34             17             
+IDENT           k0                   k0                               34             19             
+ADD             +                                                     34             22             
+INT_CONST       1                    1                                34             24             
+COMMA           ,                                                     34             25             
+IDENT           k2                   k2                               34             27             
+RPAREN          )                                                     34             29             
+SEMICOLON       ;                                                     34             30             
+IDENT           a1                   a1                               35             2              
+ASSIGN          =                                                     35             5              
+IDENT           get_ans              get_ans                          35             7              
+LPAREN          (                                                     35             14             
+IDENT           a1                   a1                               35             15             
+COMMA           ,                                                     35             17             
+IDENT           k0                   k0                               35             19             
+COMMA           ,                                                     35             21             
+SUB             -                                                     35             23             
+IDENT           k3                   k3                               35             24             
+SUB             -                                                     35             27             
+INT_CONST       1                    1                                35             29             
+RPAREN          )                                                     35             30             
+SEMICOLON       ;                                                     35             31             
+IDENT           a1                   a1                               36             2              
+ASSIGN          =                                                     36             5              
+IDENT           get_ans              get_ans                          36             7              
+LPAREN          (                                                     36             14             
+IDENT           a1                   a1                               36             15             
+COMMA           ,                                                     36             17             
+IDENT           k0                   k0                               36             19             
+COMMA           ,                                                     36             21             
+IDENT           k4                   k4                               36             23             
+ADD             +                                                     36             26             
+INT_CONST       1                    1                                36             28             
+RPAREN          )                                                     36             29             
+SEMICOLON       ;                                                     36             30             
+IDENT           a1                   a1                               37             2              
+ASSIGN          =                                                     37             5              
+IDENT           get_ans              get_ans                          37             7              
+LPAREN          (                                                     37             14             
+IDENT           a1                   a1                               37             15             
+COMMA           ,                                                     37             17             
+IDENT           k1                   k1                               37             19             
+DIV             /                                                     37             22             
+INT_CONST       2                    2                                37             24             
+COMMA           ,                                                     37             25             
+IDENT           k2                   k2                               37             27             
+DIV             /                                                     37             30             
+INT_CONST       2                    2                                37             32             
+RPAREN          )                                                     37             33             
+SEMICOLON       ;                                                     37             34             
+IDENT           a1                   a1                               38             2              
+ASSIGN          =                                                     38             5              
+IDENT           get_ans              get_ans                          38             7              
+LPAREN          (                                                     38             14             
+IDENT           a1                   a1                               38             15             
+COMMA           ,                                                     38             17             
+IDENT           k1                   k1                               38             19             
+COMMA           ,                                                     38             21             
+SUB             -                                                     38             23             
+IDENT           k3                   k3                               38             24             
+SUB             -                                                     38             27             
+INT_CONST       1                    1                                38             29             
+RPAREN          )                                                     38             30             
+SEMICOLON       ;                                                     38             31             
+IDENT           a1                   a1                               39             2              
+ASSIGN          =                                                     39             5              
+IDENT           get_ans              get_ans                          39             7              
+LPAREN          (                                                     39             14             
+IDENT           a1                   a1                               39             15             
+COMMA           ,                                                     39             17             
+IDENT           k1                   k1                               39             19             
+COMMA           ,                                                     39             21             
+IDENT           k4                   k4                               39             23             
+ADD             +                                                     39             26             
+INT_CONST       1                    1                                39             28             
+RPAREN          )                                                     39             29             
+SEMICOLON       ;                                                     39             30             
+IDENT           a2                   a2                               40             2              
+ASSIGN          =                                                     40             5              
+IDENT           get_ans              get_ans                          40             7              
+LPAREN          (                                                     40             14             
+INT_CONST       0                    0                                40             16             
+COMMA           ,                                                     40             17             
+IDENT           k2                   k2                               40             19             
+COMMA           ,                                                     40             21             
+IDENT           k3                   k3                               40             23             
+RPAREN          )                                                     40             25             
+SEMICOLON       ;                                                     40             26             
+IDENT           a2                   a2                               41             2              
+ASSIGN          =                                                     41             5              
+IDENT           get_ans              get_ans                          41             7              
+LPAREN          (                                                     41             14             
+IDENT           a2                   a2                               41             15             
+COMMA           ,                                                     41             17             
+IDENT           k2                   k2                               41             19             
+COMMA           ,                                                     41             21             
+IDENT           k4                   k4                               41             23             
+RPAREN          )                                                     41             25             
+SEMICOLON       ;                                                     41             26             
+IDENT           a2                   a2                               42             2              
+ASSIGN          =                                                     42             5              
+IDENT           get_ans              get_ans                          42             7              
+LPAREN          (                                                     42             14             
+IDENT           a2                   a2                               42             15             
+COMMA           ,                                                     42             17             
+IDENT           k3                   k3                               42             19             
+COMMA           ,                                                     42             21             
+IDENT           k4                   k4                               42             23             
+RPAREN          )                                                     42             25             
+SEMICOLON       ;                                                     42             26             
+IDENT           a2                   a2                               43             2              
+ASSIGN          =                                                     43             5              
+IDENT           get_ans              get_ans                          43             7              
+LPAREN          (                                                     43             14             
+IDENT           a2                   a2                               43             15             
+COMMA           ,                                                     43             17             
+IDENT           k0                   k0                               43             19             
+DIV             /                                                     43             22             
+INT_CONST       2                    2                                43             24             
+COMMA           ,                                                     43             25             
+IDENT           k1                   k1                               43             27             
+DIV             /                                                     43             30             
+INT_CONST       2                    2                                43             32             
+RPAREN          )                                                     43             33             
+SEMICOLON       ;                                                     43             34             
+IDENT           a3                   a3                               44             2              
+ASSIGN          =                                                     44             5              
+IDENT           get_ans_se           get_ans_se                       44             7              
+LPAREN          (                                                     44             17             
+INT_CONST       0                    0                                44             19             
+COMMA           ,                                                     44             20             
+IDENT           k0                   k0                               44             22             
+COMMA           ,                                                     44             24             
+IDENT           k1                   k1                               44             26             
+RPAREN          )                                                     44             28             
+SEMICOLON       ;                                                     44             29             
+IDENT           a3                   a3                               45             2              
+ASSIGN          =                                                     45             5              
+IDENT           get_ans_se           get_ans_se                       45             7              
+LPAREN          (                                                     45             17             
+IDENT           a3                   a3                               45             18             
+COMMA           ,                                                     45             20             
+IDENT           k0                   k0                               45             22             
+ADD             +                                                     45             25             
+INT_CONST       1                    1                                45             27             
+COMMA           ,                                                     45             28             
+IDENT           k2                   k2                               45             30             
+RPAREN          )                                                     45             32             
+SEMICOLON       ;                                                     45             33             
+IDENT           a3                   a3                               46             2              
+ASSIGN          =                                                     46             5              
+IDENT           get_ans_se           get_ans_se                       46             7              
+LPAREN          (                                                     46             17             
+IDENT           a3                   a3                               46             18             
+COMMA           ,                                                     46             20             
+IDENT           k0                   k0                               46             22             
+COMMA           ,                                                     46             24             
+SUB             -                                                     46             26             
+IDENT           k3                   k3                               46             27             
+SUB             -                                                     46             30             
+INT_CONST       1                    1                                46             32             
+RPAREN          )                                                     46             33             
+SEMICOLON       ;                                                     46             34             
+IDENT           a3                   a3                               47             2              
+ASSIGN          =                                                     47             5              
+IDENT           get_ans_se           get_ans_se                       47             7              
+LPAREN          (                                                     47             17             
+IDENT           a3                   a3                               47             18             
+COMMA           ,                                                     47             20             
+IDENT           k0                   k0                               47             22             
+COMMA           ,                                                     47             24             
+IDENT           k4                   k4                               47             26             
+ADD             +                                                     47             29             
+INT_CONST       1                    1                                47             31             
+RPAREN          )                                                     47             32             
+SEMICOLON       ;                                                     47             33             
+IDENT           a3                   a3                               48             2              
+ASSIGN          =                                                     48             5              
+IDENT           get_ans_se           get_ans_se                       48             7              
+LPAREN          (                                                     48             17             
+IDENT           a3                   a3                               48             18             
+COMMA           ,                                                     48             20             
+IDENT           k1                   k1                               48             22             
+DIV             /                                                     48             25             
+INT_CONST       2                    2                                48             27             
+COMMA           ,                                                     48             28             
+IDENT           k2                   k2                               48             30             
+DIV             /                                                     48             33             
+INT_CONST       2                    2                                48             35             
+RPAREN          )                                                     48             36             
+SEMICOLON       ;                                                     48             37             
+IDENT           a3                   a3                               49             2              
+ASSIGN          =                                                     49             5              
+IDENT           get_ans_se           get_ans_se                       49             7              
+LPAREN          (                                                     49             17             
+IDENT           a3                   a3                               49             18             
+COMMA           ,                                                     49             20             
+IDENT           k1                   k1                               49             22             
+COMMA           ,                                                     49             24             
+SUB             -                                                     49             26             
+IDENT           k3                   k3                               49             27             
+SUB             -                                                     49             30             
+INT_CONST       1                    1                                49             32             
+RPAREN          )                                                     49             33             
+SEMICOLON       ;                                                     49             34             
+IDENT           a3                   a3                               50             2              
+ASSIGN          =                                                     50             5              
+IDENT           get_ans_se           get_ans_se                       50             7              
+LPAREN          (                                                     50             17             
+IDENT           a3                   a3                               50             18             
+COMMA           ,                                                     50             20             
+IDENT           k1                   k1                               50             22             
+COMMA           ,                                                     50             24             
+IDENT           k4                   k4                               50             26             
+ADD             +                                                     50             29             
+INT_CONST       1                    1                                50             31             
+RPAREN          )                                                     50             32             
+SEMICOLON       ;                                                     50             33             
+IDENT           a4                   a4                               51             2              
+ASSIGN          =                                                     51             5              
+IDENT           get_ans_se           get_ans_se                       51             7              
+LPAREN          (                                                     51             17             
+INT_CONST       0                    0                                51             19             
+COMMA           ,                                                     51             20             
+IDENT           k2                   k2                               51             22             
+COMMA           ,                                                     51             24             
+IDENT           k3                   k3                               51             26             
+RPAREN          )                                                     51             28             
+SEMICOLON       ;                                                     51             29             
+IDENT           a4                   a4                               52             2              
+ASSIGN          =                                                     52             5              
+IDENT           get_ans_se           get_ans_se                       52             7              
+LPAREN          (                                                     52             17             
+IDENT           a4                   a4                               52             18             
+COMMA           ,                                                     52             20             
+IDENT           k2                   k2                               52             22             
+COMMA           ,                                                     52             24             
+IDENT           k4                   k4                               52             26             
+RPAREN          )                                                     52             28             
+SEMICOLON       ;                                                     52             29             
+IDENT           a4                   a4                               53             2              
+ASSIGN          =                                                     53             5              
+IDENT           get_ans_se           get_ans_se                       53             7              
+LPAREN          (                                                     53             17             
+IDENT           a4                   a4                               53             18             
+COMMA           ,                                                     53             20             
+IDENT           k3                   k3                               53             22             
+COMMA           ,                                                     53             24             
+IDENT           k4                   k4                               53             26             
+RPAREN          )                                                     53             28             
+SEMICOLON       ;                                                     53             29             
+IDENT           a4                   a4                               54             2              
+ASSIGN          =                                                     54             5              
+IDENT           get_ans_se           get_ans_se                       54             7              
+LPAREN          (                                                     54             17             
+IDENT           a4                   a4                               54             18             
+COMMA           ,                                                     54             20             
+IDENT           k0                   k0                               54             22             
+DIV             /                                                     54             25             
+INT_CONST       2                    2                                54             27             
+COMMA           ,                                                     54             28             
+IDENT           k1                   k1                               54             30             
+DIV             /                                                     54             33             
+INT_CONST       2                    2                                54             35             
+RPAREN          )                                                     54             36             
+SEMICOLON       ;                                                     54             37             
+RETURN          return                                                55             2              
+IDENT           a1                   a1                               55             9              
+ADD             +                                                     55             12             
+IDENT           a2                   a2                               55             14             
+ADD             +                                                     55             17             
+IDENT           a3                   a3                               55             19             
+ADD             +                                                     55             22             
+IDENT           a4                   a4                               55             24             
+SEMICOLON       ;                                                     55             26             
+RBRACE          }                                                     56             0              
+VOID            void                                                  59             0              
+IDENT           test_annotation      test_annotation                  59             5              
+LPAREN          (                                                     59             20             
+RPAREN          )                                                     59             21             
+LBRACE          {                                                     59             23             
+INT             int                                                   60             4              
+IDENT           f                    f                                60             8              
+COMMA           ,                                                     60             9              
+IDENT           g                    g                                60             11             
+COMMA           ,                                                     60             12             
+IDENT           h                    h                                60             14             
+SEMICOLON       ;                                                     60             15             
+ADD             +                                                     61             4              
+ADD             +                                                     61             5              
+IDENT           f                    f                                61             6              
+SEMICOLON       ;                                                     61             7              
+IDENT           f                    f                                63             4              
+ASSIGN          =                                                     63             6              
+IDENT           g                    g                                63             8              
+DIV             /                                                     63             13             
+IDENT           h                    h                                63             14             
+SEMICOLON       ;                                                     63             15             
+IDENT           f                    f                                64             11             
+ASSIGN          =                                                     64             13             
+IDENT           g                    g                                64             15             
+MOD             %                                                     64             17             
+IDENT           h                    h                                64             19             
+SEMICOLON       ;                                                     64             20             
+IDENT           f                    f                                65             4              
+ASSIGN          =                                                     65             6              
+IDENT           g                    g                                65             8              
+ADD             +                                                     66             4              
+IDENT           h                    h                                66             6              
+SEMICOLON       ;                                                     66             7              
+IDENT           f                    f                                67             4              
+ADDASSIGN       +=                                                    67             5              
+INT_CONST       1                    1                                67             7              
+SEMICOLON       ;                                                     67             8              
+IDENT           f                    f                                69             7              
+ASSIGN          =                                                     69             9              
+IDENT           g                    g                                69             11             
+MUL             *                                                     69             13             
+IDENT           h                    h                                69             15             
+SEMICOLON       ;                                                     69             16             
+RBRACE          }                                                     70             0              
+VOID            void                                                  73             0              
+IDENT           test_terminal        test_terminal                    73             5              
+LPAREN          (                                                     73             18             
+RPAREN          )                                                     73             19             
+LBRACE          {                                                     73             21             
+CONST           const                                                 74             4              
+INT             int                                                   74             10             
+IDENT           arr                  arr                              74             14             
+LSQUARE         [                                                     74             17             
+INT_CONST       5                    5                                74             18             
+RSQUARE         ]                                                     74             19             
+ASSIGN          =                                                     74             20             
+LBRACE          {                                                     74             21             
+INT_CONST       0                    0                                74             22             
+COMMA           ,                                                     74             23             
+INT_CONST       1                    1                                74             24             
+COMMA           ,                                                     74             25             
+INT_CONST       2                    2                                74             26             
+COMMA           ,                                                     74             27             
+INT_CONST       3                    3                                74             28             
+COMMA           ,                                                     74             29             
+INT_CONST       4                    4                                74             30             
+RBRACE          }                                                     74             31             
+SEMICOLON       ;                                                     74             32             
+INT             int                                                   75             4              
+IDENT           a                    a                                75             8              
+ASSIGN          =                                                     75             10             
+LPAREN          (                                                     75             12             
+IDENT           arr                  arr                              75             13             
+LSQUARE         [                                                     75             16             
+INT_CONST       1                    1                                75             17             
+RSQUARE         ]                                                     75             18             
+ADD             +                                                     75             20             
+INT_CONST       2                    2                                75             22             
+RPAREN          )                                                     75             23             
+MUL             *                                                     75             25             
+INT_CONST       3                    3                                75             27             
+DIV             /                                                     75             29             
+INT_CONST       4                    4                                75             31             
+SUB             -                                                     75             33             
+INT_CONST       5                    5                                75             35             
+MOD             %                                                     75             37             
+INT_CONST       2                    2                                75             39             
+SEMICOLON       ;                                                     75             40             
+INT             int                                                   76             4              
+IDENT           b                    b                                76             8              
+COMMA           ,                                                     76             9              
+IDENT           c                    c                                76             11             
+COMMA           ,                                                     76             12             
+IDENT           d                    d                                76             14             
+SEMICOLON       ;                                                     76             15             
+WHILE           while                                                 77             4              
+LPAREN          (                                                     77             10             
+IDENT           a                    a                                77             11             
+GREATER         <                                                     77             13             
+INT_CONST       75                   75                               77             15             
+RPAREN          )                                                     77             17             
+LBRACE          {                                                     77             19             
+IDENT           b                    b                                78             8              
+ASSIGN          =                                                     78             10             
+INT_CONST       42                   42                               78             12             
+SEMICOLON       ;                                                     78             14             
+IF              if                                                    79             8              
+LPAREN          (                                                     79             11             
+IDENT           a                    a                                79             12             
+LEQ             <=                                                    79             14             
+INT_CONST       99                   99                               79             17             
+RPAREN          )                                                     79             19             
+LBRACE          {                                                     79             21             
+IDENT           c                    c                                80             12             
+ASSIGN          =                                                     80             14             
+IDENT           b                    b                                80             16             
+MUL             *                                                     80             18             
+INT_CONST       2                    2                                80             20             
+SEMICOLON       ;                                                     80             21             
+IF              if                                                    81             12             
+LPAREN          (                                                     81             15             
+INT_CONST       1                    1                                81             16             
+EQ              ==                                                    81             18             
+INT_CONST       1                    1                                81             21             
+RPAREN          )                                                     81             22             
+LBRACE          {                                                     81             24             
+IDENT           a                    a                                82             16             
+ASSIGN          =                                                     82             18             
+IDENT           c                    c                                82             20             
+MUL             *                                                     82             22             
+INT_CONST       2                    2                                82             24             
+SEMICOLON       ;                                                     82             25             
+BREAK           break                                                 83             16             
+SEMICOLON       ;                                                     83             21             
+RBRACE          }                                                     84             12             
+RBRACE          }                                                     85             8              
+RBRACE          }                                                     86             4              
+IDENT           d                    d                                87             4              
+ASSIGN          =                                                     87             6              
+SUB             -                                                     87             8              
+INT_CONST       2                    2                                87             9              
+SEMICOLON       ;                                                     87             10             
+IF              if                                                    88             4              
+LPAREN          (                                                     88             7              
+NOT             !                                                     88             8              
+LPAREN          (                                                     88             9              
+LPAREN          (                                                     88             10             
+IDENT           d                    d                                88             11             
+MUL             *                                                     88             13             
+INT_CONST       1                    1                                88             15             
+DIV             /                                                     88             17             
+INT_CONST       2                    2                                88             19             
+RPAREN          )                                                     88             20             
+LESS            >                                                     88             22             
+INT_CONST       0                    0                                88             24             
+OR              ||                                                    88             26             
+LPAREN          (                                                     88             29             
+IDENT           a                    a                                88             30             
+SUB             -                                                     88             32             
+IDENT           b                    b                                88             34             
+RPAREN          )                                                     88             35             
+GEQ             >=                                                    88             37             
+INT_CONST       0                    0                                88             40             
+RPAREN          )                                                     88             41             
+AND             &&                                                    88             43             
+LPAREN          (                                                     88             46             
+IDENT           c                    c                                88             47             
+ADD             +                                                     88             49             
+INT_CONST       3                    3                                88             51             
+RPAREN          )                                                     88             52             
+MOD             %                                                     88             54             
+INT_CONST       2                    2                                88             56             
+NE              !=                                                    88             58             
+INT_CONST       0                    0                                88             61             
+RPAREN          )                                                     88             62             
+LBRACE          {                                                     88             64             
+IDENT           putint               putint                           89             8              
+LPAREN          (                                                     89             14             
+IDENT           d                    d                                89             15             
+RPAREN          )                                                     89             16             
+SEMICOLON       ;                                                     89             17             
+RBRACE          }                                                     90             4              
+RBRACE          }                                                     91             0              
+INT             int                                                   94             0              
+IDENT           k                    k                                94             4              
+SEMICOLON       ;                                                     94             5              
+VOID            void                                                  95             0              
+IDENT           test_scope           test_scope                       95             5              
+LPAREN          (                                                     95             15             
+RPAREN          )                                                     95             16             
+LBRACE          {                                                     95             18             
+IDENT           k                    k                                96             4              
+ASSIGN          =                                                     96             6              
+INT_CONST       3389                 3389                             96             8              
+SEMICOLON       ;                                                     96             12             
+IF              if                                                    97             4              
+LPAREN          (                                                     97             7              
+IDENT           k                    k                                97             8              
+GREATER         <                                                     97             10             
+INT_CONST       10000                10000                            97             12             
+RPAREN          )                                                     97             17             
+LBRACE          {                                                     97             19             
+IDENT           k                    k                                98             8              
+ASSIGN          =                                                     98             10             
+IDENT           k                    k                                98             12             
+ADD             +                                                     98             14             
+INT_CONST       1                    1                                98             16             
+SEMICOLON       ;                                                     98             17             
+INT             int                                                   99             8              
+IDENT           k                    k                                99             12             
+ASSIGN          =                                                     99             14             
+INT_CONST       112                  112                              99             16             
+SEMICOLON       ;                                                     99             19             
+IDENT           k                    k                                100            8              
+ASSIGN          =                                                     100            10             
+IDENT           k                    k                                100            12             
+SUB             -                                                     100            14             
+INT_CONST       88                   88                               100            16             
+SEMICOLON       ;                                                     100            18             
+RBRACE          }                                                     101            4              
+IDENT           putint               putint                           102            4              
+LPAREN          (                                                     102            10             
+IDENT           k                    k                                102            11             
+RPAREN          )                                                     102            12             
+SEMICOLON       ;                                                     102            13             
+RBRACE          }                                                     103            0              

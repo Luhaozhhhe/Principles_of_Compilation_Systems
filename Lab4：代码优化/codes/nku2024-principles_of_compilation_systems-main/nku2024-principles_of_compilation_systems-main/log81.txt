@@ -1,0 +1,296 @@
+23
+current id: 0, current bid: 0x5b523e19f2c0
+current id: 1, current bid: 0x5b523e19f180
+current id: 2, current bid: 0x5b523e19f540
+current id: 3, current bid: 0x5b523e19f4c0
+current id: 4, current bid: 0x5b523e19f440
+current id: 5, current bid: 0x5b523e19f3c0
+current id: 6, current bid: 0x5b523e1a30f0
+current id: 7, current bid: 0x5b523e1a3410
+current id: 8, current bid: 0x5b523e1a3d50
+current id: 9, current bid: 0x5b523e1a4070
+current id: 10, current bid: 0x5b523e1a4390
+current id: 11, current bid: 0x5b523e1a4af0
+current id: 12, current bid: 0x5b523e1a4e10
+current id: 13, current bid: 0x5b523e1a5130
+current id: 14, current bid: 0x5b523e1a5ba0
+current id: 15, current bid: 0x5b523e1a5ec0
+current id: 16, current bid: 0x5b523e1a61e0
+current id: 17, current bid: 0x5b523e1a6940
+current id: 18, current bid: 0x5b523e1a6c60
+current id: 19, current bid: 0x5b523e1a6f80
+current id: 20, current bid: 0x5b523e1a76e0
+current id: 21, current bid: 0x5b523e1a7a00
+current id: 22, current bid: 0x5b523e1a7d20
+43
+current id: 0, current bid: 0x5b523e19fef0
+current id: 1, current bid: 0x5b523e1b1bf0
+current id: 2, current bid: 0x5b523e1b1ec0
+current id: 3, current bid: 0x5b523e1b21e0
+current id: 4, current bid: 0x5b523e1b2730
+current id: 5, current bid: 0x5b523e1b2a50
+current id: 6, current bid: 0x5b523e1b2d70
+current id: 7, current bid: 0x5b523e1b32c0
+current id: 8, current bid: 0x5b523e1b35e0
+current id: 9, current bid: 0x5b523e1b3900
+current id: 10, current bid: 0x5b523e1b3e50
+current id: 11, current bid: 0x5b523e1b4170
+current id: 12, current bid: 0x5b523e1b4490
+current id: 13, current bid: 0x5b523e1b49e0
+current id: 14, current bid: 0x5b523e1b4d00
+current id: 15, current bid: 0x5b523e1b5020
+current id: 16, current bid: 0x5b523e1b5570
+current id: 17, current bid: 0x5b523e1b5890
+current id: 18, current bid: 0x5b523e1b5bb0
+current id: 19, current bid: 0x5b523e1b6100
+current id: 20, current bid: 0x5b523e1b6420
+current id: 21, current bid: 0x5b523e1b6740
+current id: 22, current bid: 0x5b523e1b7430
+current id: 23, current bid: 0x5b523e1b7700
+current id: 24, current bid: 0x5b523e1b7b50
+current id: 25, current bid: 0x5b523e1b7f40
+current id: 26, current bid: 0x5b523e1b8260
+current id: 27, current bid: 0x5b523e1b8760
+current id: 28, current bid: 0x5b523e1b8bd0
+current id: 29, current bid: 0x5b523e1b8ef0
+current id: 30, current bid: 0x5b523e1b94b0
+current id: 31, current bid: 0x5b523e1b99a0
+current id: 32, current bid: 0x5b523e1b9cc0
+current id: 33, current bid: 0x5b523e1ba280
+current id: 34, current bid: 0x5b523e1ba770
+current id: 35, current bid: 0x5b523e1baa90
+current id: 36, current bid: 0x5b523e1bb050
+current id: 37, current bid: 0x5b523e1bb540
+current id: 38, current bid: 0x5b523e1bb860
+current id: 39, current bid: 0x5b523e1bbe20
+current id: 40, current bid: 0x5b523e1bc310
+current id: 41, current bid: 0x5b523e1bc630
+current id: 42, current bid: 0x5b523e1bcbf0
+22
+current id: 0, current bid: 0x5b523e19fdf0
+current id: 1, current bid: 0x5b523e19fe70
+current id: 2, current bid: 0x5b523e1aad70
+current id: 3, current bid: 0x5b523e1ab040
+current id: 4, current bid: 0x5b523e1ab580
+current id: 5, current bid: 0x5b523e1ab8a0
+current id: 6, current bid: 0x5b523e1abbc0
+current id: 7, current bid: 0x5b523e1ac100
+current id: 8, current bid: 0x5b523e1ac420
+current id: 9, current bid: 0x5b523e1ac740
+current id: 10, current bid: 0x5b523e1acc80
+current id: 11, current bid: 0x5b523e1acfa0
+current id: 12, current bid: 0x5b523e1ad2c0
+current id: 13, current bid: 0x5b523e1ad800
+current id: 14, current bid: 0x5b523e1adb20
+current id: 15, current bid: 0x5b523e1ade40
+current id: 16, current bid: 0x5b523e1ae380
+current id: 17, current bid: 0x5b523e1ae6a0
+current id: 18, current bid: 0x5b523e1ae9c0
+current id: 19, current bid: 0x5b523e1aef00
+current id: 20, current bid: 0x5b523e1af220
+current id: 21, current bid: 0x5b523e1af540
+1
+current id: 0, current bid: 0x5b523e1b10a0
+erase all subsequent instructions after br in current_block:0
+erase all subsequent instructions after br_cond in current_block:1
+erase all subsequent instructions after RET in current_block:3
+erase all subsequent instructions after br_cond in current_block:4
+erase all subsequent instructions after br in current_block:2
+erase all subsequent instructions after br_cond in current_block:5
+erase all subsequent instructions after br in current_block:7
+erase all subsequent instructions after br in current_block:6
+erase all subsequent instructions after br_cond in current_block:8
+erase all subsequent instructions after br in current_block:10
+erase all subsequent instructions after br in current_block:9
+erase all subsequent instructions after br_cond in current_block:11
+erase all subsequent instructions after br in current_block:13
+erase all subsequent instructions after br in current_block:12
+erase all subsequent instructions after br_cond in current_block:14
+erase all subsequent instructions after br in current_block:16
+erase all subsequent instructions after br in current_block:15
+erase all subsequent instructions after br_cond in current_block:17
+erase all subsequent instructions after br in current_block:19
+erase all subsequent instructions after br in current_block:18
+erase all subsequent instructions after br_cond in current_block:20
+erase all subsequent instructions after br in current_block:22
+erase all subsequent instructions after br in current_block:21
+block : 0 visited: 1
+block : 1 visited: 1
+block : 2 visited: 1
+block : 3 visited: 1
+block : 4 visited: 1
+block : 5 visited: 1
+block : 6 visited: 1
+block : 7 visited: 1
+block : 8 visited: 1
+block : 9 visited: 1
+block : 10 visited: 1
+block : 11 visited: 1
+block : 12 visited: 1
+block : 13 visited: 1
+block : 14 visited: 1
+block : 15 visited: 1
+block : 16 visited: 1
+block : 17 visited: 1
+block : 18 visited: 1
+block : 19 visited: 1
+block : 20 visited: 1
+block : 21 visited: 1
+block : 22 visited: 1
+erase all subsequent instructions after br in current_block:0
+erase all subsequent instructions after br_cond in current_block:1
+erase all subsequent instructions after RET in current_block:3
+erase all subsequent instructions after br in current_block:2
+erase all subsequent instructions after br_cond in current_block:4
+erase all subsequent instructions after br_cond in current_block:6
+erase all subsequent instructions after br in current_block:41
+erase all subsequent instructions after br in current_block:40
+erase all subsequent instructions after br in current_block:5
+erase all subsequent instructions after br_cond in current_block:7
+erase all subsequent instructions after br_cond in current_block:9
+erase all subsequent instructions after br in current_block:38
+erase all subsequent instructions after br in current_block:37
+erase all subsequent instructions after br in current_block:8
+erase all subsequent instructions after br_cond in current_block:10
+erase all subsequent instructions after br_cond in current_block:12
+erase all subsequent instructions after br in current_block:35
+erase all subsequent instructions after br in current_block:34
+erase all subsequent instructions after br in current_block:11
+erase all subsequent instructions after br_cond in current_block:13
+erase all subsequent instructions after br_cond in current_block:15
+erase all subsequent instructions after br in current_block:32
+erase all subsequent instructions after br in current_block:31
+erase all subsequent instructions after br in current_block:14
+erase all subsequent instructions after br_cond in current_block:16
+erase all subsequent instructions after br_cond in current_block:18
+erase all subsequent instructions after br in current_block:29
+erase all subsequent instructions after br in current_block:28
+erase all subsequent instructions after br in current_block:17
+erase all subsequent instructions after br_cond in current_block:19
+erase all subsequent instructions after br_cond in current_block:21
+erase all subsequent instructions after br in current_block:26
+erase all subsequent instructions after br in current_block:25
+erase all subsequent instructions after br_cond in current_block:20
+erase all subsequent instructions after br in current_block:23
+erase all subsequent instructions after br in current_block:22
+block : 0 visited: 1
+block : 1 visited: 1
+block : 2 visited: 1
+block : 3 visited: 1
+block : 4 visited: 1
+block : 5 visited: 1
+block : 6 visited: 1
+block : 7 visited: 1
+block : 8 visited: 1
+block : 9 visited: 1
+block : 10 visited: 1
+block : 11 visited: 1
+block : 12 visited: 1
+block : 13 visited: 1
+block : 14 visited: 1
+block : 15 visited: 1
+block : 16 visited: 1
+block : 17 visited: 1
+block : 18 visited: 1
+block : 19 visited: 1
+block : 20 visited: 1
+block : 21 visited: 1
+block : 22 visited: 1
+block : 23 visited: 1
+erase block: 24
+block : 25 visited: 1
+block : 26 visited: 1
+erase block: 27
+block : 28 visited: 1
+block : 29 visited: 1
+erase block: 30
+block : 31 visited: 1
+block : 32 visited: 1
+erase block: 33
+block : 34 visited: 1
+block : 35 visited: 1
+erase block: 36
+block : 37 visited: 1
+block : 38 visited: 1
+erase block: 39
+block : 40 visited: 1
+block : 41 visited: 1
+erase block: 42
+erase all subsequent instructions after br in current_block:0
+erase all subsequent instructions after br_cond in current_block:1
+erase all subsequent instructions after RET in current_block:3
+erase all subsequent instructions after br in current_block:2
+erase all subsequent instructions after br_cond in current_block:4
+erase all subsequent instructions after br in current_block:6
+erase all subsequent instructions after br in current_block:5
+erase all subsequent instructions after br_cond in current_block:7
+erase all subsequent instructions after br in current_block:9
+erase all subsequent instructions after br in current_block:8
+erase all subsequent instructions after br_cond in current_block:10
+erase all subsequent instructions after br in current_block:12
+erase all subsequent instructions after br in current_block:11
+erase all subsequent instructions after br_cond in current_block:13
+erase all subsequent instructions after br in current_block:15
+erase all subsequent instructions after br in current_block:14
+erase all subsequent instructions after br_cond in current_block:16
+erase all subsequent instructions after br in current_block:18
+erase all subsequent instructions after br in current_block:17
+erase all subsequent instructions after br_cond in current_block:19
+erase all subsequent instructions after br in current_block:21
+erase all subsequent instructions after br in current_block:20
+block : 0 visited: 1
+block : 1 visited: 1
+block : 2 visited: 1
+block : 3 visited: 1
+block : 4 visited: 1
+block : 5 visited: 1
+block : 6 visited: 1
+block : 7 visited: 1
+block : 8 visited: 1
+block : 9 visited: 1
+block : 10 visited: 1
+block : 11 visited: 1
+block : 12 visited: 1
+block : 13 visited: 1
+block : 14 visited: 1
+block : 15 visited: 1
+block : 16 visited: 1
+block : 17 visited: 1
+block : 18 visited: 1
+block : 19 visited: 1
+block : 20 visited: 1
+block : 21 visited: 1
+erase all subsequent instructions after RET in current_block:0
+block : 0 visited: 1
+23
+current id: 0, current bid: 0x5b523e19f2c0
+current id: 1, current bid: 0x5b523e19f180
+current id: 2, current bid: 0x5b523e19f540
+current id: 3, current bid: 0x5b523e19f4c0
+current id: 4, current bid: 0x5b523e19f440
+current id: 5, current bid: 0x5b523e19f3c0
+current id: 6, current bid: 0x5b523e1a30f0
+current id: 7, current bid: 0x5b523e1a3410
+current id: 8, current bid: 0x5b523e1a3d50
+current id: 9, current bid: 0x5b523e1a4070
+current id: 10, current bid: 0x5b523e1a4390
+current id: 11, current bid: 0x5b523e1a4af0
+current id: 12, current bid: 0x5b523e1a4e10
+current id: 13, current bid: 0x5b523e1a5130
+current id: 14, current bid: 0x5b523e1a5ba0
+current id: 15, current bid: 0x5b523e1a5ec0
+current id: 16, current bid: 0x5b523e1a61e0
+current id: 17, current bid: 0x5b523e1a6940
+current id: 18, current bid: 0x5b523e1a6c60
+current id: 19, current bid: 0x5b523e1a6f80
+current id: 20, current bid: 0x5b523e1a76e0
+current id: 21, current bid: 0x5b523e1a7a00
+current id: 22, current bid: 0x5b523e1a7d20
+36
+current id: 0, current bid: 0x5b523e19fef0
+current id: 1, current bid: 0x5b523e1b1bf0
+current id: 2, current bid: 0x5b523e1b1ec0
+current id: 3, current bid: 0x5b523e1b21e0
+current id: 4, current bid: 0x5b523e1b2730
+current id: 5, current bid: 0x5b523e1b2a50
+current id: 6, current bid: 0x5b523e1b2d70

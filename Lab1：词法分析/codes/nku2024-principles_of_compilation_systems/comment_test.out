@@ -1,0 +1,26 @@
+Token           Lexeme               Property                        Line           Column         
+IDENT           f                    f                                2              1              
+ASSIGN          =                                                     2              3              
+IDENT           g                    g                                2              5              
+DIV             /                                                     2              10             
+IDENT           h                    h                                2              11             
+SEMICOLON       ;                                                     2              12             
+IDENT           l                    l                                3              8              
+LPAREN          (                                                     3              9              
+RPAREN          )                                                     3              10             
+SEMICOLON       ;                                                     3              11             
+IDENT           m                    m                                4              1              
+ASSIGN          =                                                     4              3              
+IDENT           n                    n                                4              5              
+ADD             +                                                     5              1              
+IDENT           p                    p                                5              3              
+SEMICOLON       ;                                                     5              4              
+IDENT           a                    a                                6              15             
+ASSIGN          =                                                     6              17             
+IDENT           b                    b                                6              19             
+ADD             +                                                     6              21             
+IDENT           c                    c                                6              23             
+MUL             *                                                     6              25             
+IDENT           d                    d                                6              27             
+DIV             /                                                     6              29             
+IDENT           e                    e                                6              31             

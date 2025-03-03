@@ -1,0 +1,51 @@
+Program
+  FuncDef   Name:main   ReturnType: Int
+    Block   Size:3
+      VarDecls   Type: Int
+        VarDef   name:a   scope:-1
+          Dimensions:
+            Intconst   val:5   Type: Void   
+            Intconst   val:4   Type: Void   
+            Intconst   val:3   Type: Void   
+          init:
+            VarInitVal
+              VarInitVal
+                VarInitVal_exp
+                  Intconst   val:1   Type: Void   
+              VarInitVal
+                VarInitVal
+                  VarInitVal_exp
+                    Intconst   val:5   Type: Void   
+                  VarInitVal_exp
+                    Intconst   val:4   Type: Void   
+                VarInitVal_exp
+                  AddExp_plus: (+)   Type: Void   
+                    Intconst   val:3   Type: Void   
+                    Intconst   val:5   Type: Void   
+              VarInitVal_exp
+                Intconst   val:2   Type: Void   
+              VarInitVal
+                VarInitVal_exp
+                  Intconst   val:7   Type: Void   
+                VarInitVal_exp
+                  Intconst   val:8   Type: Void   
+                VarInitVal_exp
+                  Intconst   val:9   Type: Void   
+      VarDecls   Type: Int
+        VarDef   name:b   scope:-1
+          Dimensions:
+            Intconst   val:5   Type: Void   
+            Intconst   val:4   Type: Void   
+            Intconst   val:3   Type: Void   
+          init:
+            VarInitVal
+              VarInitVal
+                VarInitVal
+                  VarInitVal_exp
+                    Intconst   val:2   Type: Void   
+                  VarInitVal_exp
+                    Intconst   val:3   Type: Void   
+                VarInitVal_exp
+                  Intconst   val:1   Type: Void   
+      ReturnStmt:
+        Intconst   val:0   Type: Void   

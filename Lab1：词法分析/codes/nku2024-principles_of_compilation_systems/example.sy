@@ -1,0 +1,106 @@
+// test hex and oct
+int test_hexoct() {
+    int a, b;
+    a = 0xf0aC;
+    b = 0XcBeF;
+    return a + b + 075;
+}
+
+// test float
+float test_float()
+{
+    float a, b, c ,  e ,f;
+    a = 14;
+    b = 1333;
+    c = .1;
+    e = 14.075;
+    f = 1.34e-3;
+    g = 0x.AP-3;
+    return a+b+c;
+}
+
+// */
+f = g/**//h;
+/*//*/l();
+m = n//**/o
++p;
+/* comment */ a = b + c */
+
+int main() {
+  const int k0 = -2147483648;
+  const int k1 = 0x80000000;
+  const int k2 = 0x80000000 + 1;
+  const int k3 = 0x7fFffffF;
+  const int k4 = 0x7fFffffF - 1;
+  int a1, a2, a3, a4;
+  a1 = get_ans( 0, k0, k1);
+  a1 = get_ans(a1, k0 + 1, k2);
+  a1 = get_ans(a1, k0, -k3 - 1);
+  a1 = get_ans(a1, k0, k4 + 1);
+  a1 = get_ans(a1, k1 / 2, k2 / 2);
+  a1 = get_ans(a1, k1, -k3 - 1);
+  a1 = get_ans(a1, k1, k4 + 1);
+  a2 = get_ans( 0, k2, k3);
+  a2 = get_ans(a2, k2, k4);
+  a2 = get_ans(a2, k3, k4);
+  a2 = get_ans(a2, k0 / 2, k1 / 2);
+  a3 = get_ans_se( 0, k0, k1);
+  a3 = get_ans_se(a3, k0 + 1, k2);
+  a3 = get_ans_se(a3, k0, -k3 - 1);
+  a3 = get_ans_se(a3, k0, k4 + 1);
+  a3 = get_ans_se(a3, k1 / 2, k2 / 2);
+  a3 = get_ans_se(a3, k1, -k3 - 1);
+  a3 = get_ans_se(a3, k1, k4 + 1);
+  a4 = get_ans_se( 0, k2, k3);
+  a4 = get_ans_se(a4, k2, k4);
+  a4 = get_ans_se(a4, k3, k4);
+  a4 = get_ans_se(a4, k0 / 2, k1 / 2);
+  return a1 + a2 + a3 + a4;
+}
+
+// test annotation
+void test_annotation() {
+    int f, g, h;
+    ++f;
+    // */
+    f = g/**//h;
+    /*//*/ f = g % h;
+    f = g //**/o
+    + h;
+    f+=1;
+    /* comment 
+    */ f = g * h; 
+}
+
+// test terminal
+void test_terminal() {
+    const int arr[5]={0,1,2,3,4};
+    int a = (arr[1] + 2) * 3 / 4 - 5 % 2;
+    int b, c, d;
+    while (a < 75) {
+        b = 42;
+        if (a <= 99) {
+            c = b * 2;
+            if (1 == 1) {
+                a = c * 2;
+                break;
+            }
+        }
+    }
+    d = -2;
+    if (!((d * 1 / 2) > 0 || (a - b) >= 0) && (c + 3) % 2 != 0) {
+        putint(d);
+    }
+}
+
+// test scope
+int k;
+void test_scope() {
+    k = 3389;
+    if (k < 10000) {
+        k = k + 1;
+        int k = 112;
+        k = k - 88;
+    }
+    putint(k);
+}

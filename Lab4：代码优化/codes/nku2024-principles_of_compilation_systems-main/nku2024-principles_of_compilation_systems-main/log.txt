@@ -1,0 +1,5 @@
+1
+current id: 0, current bid: 0x5bfdfdffe260
+erase all subsequent instructions after RET in current_block:0
+block : 0 visited: 1
+simplifyCFGPass End

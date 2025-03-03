@@ -1,0 +1,327 @@
+or
+erase all subsequent instructions after RET in current_block:2
+erase all subsequent instructions after RET in current_block:1
+bid: 1 has visited
+put_string
+erase all subsequent instructions after RET in current_block:3
+rand
+erase all subsequent instructions after RET in current_block:2
+clear_map
+erase all subsequent instructions after RET in current_block:3
+init
+erase all subsequent instructions after RET in current_block:0
+print_map
+erase all subsequent instructions after RET in current_block:3
+move_base
+erase all subsequent instructions after RET in current_block:6
+erase all subsequent instructions after RET in current_block:24
+erase all subsequent instructions after RET in current_block:19
+generate
+erase all subsequent instructions after RET in current_block:13
+move
+erase all subsequent instructions after RET in current_block:5
+erase all subsequent instructions after RET in current_block:4
+try_move
+erase all subsequent instructions after RET in current_block:0
+main
+erase all subsequent instructions after RET in current_block:3
+bid: 26 has visited
+bid: 26 has visited
+erase all subsequent instructions after RET in current_block:19
+bid: 19 has visited
+simplifyCFGPass End
+or
+block_size: 4
+put_string
+block_size: 4
+rand
+block_size: 3
+clear_map
+block_size: 7
+init
+block_size: 1
+print_map
+block_size: 16
+move_base
+block_size: 30
+generate
+block_size: 14
+move
+block_size: 6
+try_move
+block_size: 1
+main
+block_size: 33
+BuildCFG End
+df block_num: 4
+df block_num: 4
+df block_num: 3
+df block_num: 7
+df block_num: 1
+df block_num: 16
+df block_num: 31
+df block_num: 14
+df block_num: 6
+df block_num: 1
+df block_num: 35
+domAnalysis_time: 0 ms
+dom.exe end
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 4
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 4
+after isDominate
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+after ==1 
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+after ==1 
+after ==1 
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+after ==1 
+after ==1 
+after ==1 
+after ==1 
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+after ==1 
+after ==1 
+after ==1 
+after ==1 
+after ==1 
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 31
+after isDominate
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+after ==1 
+after ==1 
+after ==1 
+after ==1 
+after ==1 
+after ==1 
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+after ==1 
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 6
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 6
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 6
+after isDominate
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!
+Calculate_the_Num_of_Define_and_Use execution time: 0 ms
+solve_alloca_ptr_not_use execution time: 0 ms
+solve_alloca_ptr_def_and_use_in_same_block execution time: 0 ms
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+domtrees DomInfo11
+after getDomTree
+dom_tree atdom size: 35
+after isDominate
+insert phi finished
+varname finished
+VarRename execution time: 0 ms
+Total Mem2Reg function execution time: 0 ms
+finish mem2reg!

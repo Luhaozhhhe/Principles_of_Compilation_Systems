@@ -1,0 +1,12 @@
+int main()
+{
+    if(5)
+    {
+        return 6;
+    }
+    else{
+        return 4;
+    }
+    return 0;
+
+}

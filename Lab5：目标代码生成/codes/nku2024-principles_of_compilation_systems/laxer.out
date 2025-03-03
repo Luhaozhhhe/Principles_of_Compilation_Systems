@@ -1,0 +1,91 @@
+Token           Lexeme               Property                        Line           Column         
+INT             int                                                   1              0              
+IDENT           a                    a                                1              4              
+ASSIGN          =                                                     1              6              
+INT_CONST       1                    1                                1              8              
+SEMICOLON       ;                                                     1              9              
+INT             int                                                   2              0              
+IDENT           b                    b                                2              4              
+ASSIGN          =                                                     2              6              
+INT_CONST       0                    0                                2              8              
+SEMICOLON       ;                                                     2              9              
+INT             int                                                   3              0              
+IDENT           c                    c                                3              4              
+ASSIGN          =                                                     3              6              
+INT_CONST       1                    1                                3              8              
+SEMICOLON       ;                                                     3              9              
+INT             int                                                   4              0              
+IDENT           d                    d                                4              4              
+ASSIGN          =                                                     4              6              
+INT_CONST       2                    2                                4              8              
+SEMICOLON       ;                                                     4              9              
+INT             int                                                   5              0              
+IDENT           e                    e                                5              4              
+ASSIGN          =                                                     5              6              
+INT_CONST       4                    4                                5              8              
+SEMICOLON       ;                                                     5              9              
+INT             int                                                   6              0              
+IDENT           main                 main                             6              4              
+LPAREN          (                                                     6              8              
+RPAREN          )                                                     6              9              
+LBRACE          {                                                     7              0              
+INT             int                                                   8              1              
+IDENT           flag                 flag                             8              5              
+ASSIGN          =                                                     8              9              
+INT_CONST       0                    0                                8              10             
+SEMICOLON       ;                                                     8              11             
+IF              if                                                    9              1              
+LPAREN          (                                                     9              3              
+IDENT           a                    a                                9              4              
+MUL             *                                                     9              6              
+IDENT           b                    b                                9              8              
+DIV             /                                                     9              10             
+IDENT           c                    c                                9              12             
+EQ              ==                                                    9              14             
+IDENT           e                    e                                9              17             
+ADD             +                                                     9              19             
+IDENT           d                    d                                9              21             
+AND             &&                                                    9              23             
+IDENT           a                    a                                9              26             
+MUL             *                                                     9              28             
+LPAREN          (                                                     9              30             
+IDENT           a                    a                                9              31             
+ADD             +                                                     9              33             
+IDENT           b                    b                                9              35             
+RPAREN          )                                                     9              36             
+ADD             +                                                     9              38             
+IDENT           c                    c                                9              40             
+LEQ             <=                                                    9              42             
+IDENT           d                    d                                9              45             
+ADD             +                                                     9              47             
+IDENT           e                    e                                9              49             
+OR              ||                                                    9              51             
+IDENT           a                    a                                9              54             
+SUB             -                                                     9              56             
+LPAREN          (                                                     9              58             
+IDENT           b                    b                                9              59             
+MUL             *                                                     9              61             
+IDENT           c                    c                                9              63             
+RPAREN          )                                                     9              64             
+EQ              ==                                                    9              66             
+IDENT           d                    d                                9              69             
+SUB             -                                                     9              71             
+IDENT           a                    a                                9              73             
+DIV             /                                                     9              75             
+IDENT           c                    c                                9              77             
+RPAREN          )                                                     9              78             
+LBRACE          {                                                     10             1              
+IDENT           flag                 flag                             11             2              
+ASSIGN          =                                                     11             6              
+INT_CONST       1                    1                                11             7              
+SEMICOLON       ;                                                     11             8              
+RBRACE          }                                                     12             1              
+IDENT           putint               putint                           13             1              
+LPAREN          (                                                     13             7              
+IDENT           flag                 flag                             13             8              
+RPAREN          )                                                     13             12             
+SEMICOLON       ;                                                     13             13             
+RETURN          return                                                14             1              
+IDENT           flag                 flag                             14             8              
+SEMICOLON       ;                                                     14             12             
+RBRACE          }                                                     15             0              
